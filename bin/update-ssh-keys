@@ -6,7 +6,7 @@
 set -e -o pipefail
 
 if [[ -z "${USER}" || "${USER}" == root ]]; then
-    UPDATE_USER="core"
+    UPDATE_USER="cos"
 else
     UPDATE_USER="${USER}"
 fi
